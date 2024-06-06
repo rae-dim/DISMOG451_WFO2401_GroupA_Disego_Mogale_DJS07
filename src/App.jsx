@@ -1,11 +1,14 @@
 
-function App() {
+import Header from "./components/Header"
+import Meme from "./components/Meme"
 
-  return (
-    <>
-     
-    </>
-  )
+
+ function App() {
+    return (
+        <div>
+            <Header/>
+            <Meme/>
+        </div>
+    )
 }
-
 export default App
