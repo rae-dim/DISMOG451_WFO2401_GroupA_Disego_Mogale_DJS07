@@ -3,7 +3,7 @@ import React from 'react'
 export default function Meme() {
     return (
         <main>
-            <div>
+            <div className="form"> 
                 <label>Top text  {/* label added for accessibility */}
                     <input 
                     type='text'
@@ -11,9 +11,7 @@ export default function Meme() {
                     className='form--input'
                     />
                 </label>
-            </div>
-
-            <div>
+    
                 <label>Bottom text
                     <input
                     type='text'
